@@ -1,1 +1,18 @@
-Hello World
+---
+#front matter here!
+title: never-there's site
+---
+
+<h1>{{"Hi! I'm never-there!"}}</h1>
+<p>I'm a freelance artist and a professional games enthusiast. This is the landing site for all my published content!</p>
+<br>
+{% for item in site.data.navigation %}
+	<div class="bignav">
+		{% if page.url != item.link %} 
+	    <a href="{{ item.link }}">
+	      <h3>{{ item.name }}</h3>
+	    </a>
+	    {% endif %}
+	</div>
+  {% endfor %}
+
