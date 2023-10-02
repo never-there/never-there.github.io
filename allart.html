@@ -1,0 +1,12 @@
+---
+title: Art Gallery
+---
+<h1>All the arts</h1>
+<div>
+{% for art in site.arts %}
+  
+    <!-- <a href="{{art.url}}"> -->
+      <img src={{art.link}}>
+    </a>
+{% endfor %}
+</div>

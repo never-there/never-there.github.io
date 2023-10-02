@@ -1,0 +1,21 @@
+collections:
+    arts:
+        output: true
+    inktober2023:
+        output: true
+
+defaults:
+    -   scope:
+            path: ""
+            type: "arts"
+        values:
+            layout: "art"
+    -   scope:
+            path: ""
+        values:
+            layout: "default"
+    -   scope:
+            path: ""
+            type: "inktober2023"
+        values:
+            layout: "art"        
