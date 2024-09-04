@@ -19,3 +19,6 @@ defaults:
             type: "inktober2023"
         values:
             layout: "art"        
+
+plugins:
+    - jekyll-loading-lazy
