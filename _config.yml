@@ -3,6 +3,8 @@ collections:
         output: true
     inktober2023:
         output: true
+    inktober2024:
+        output: true
 
 defaults:
     -   scope:
@@ -17,6 +19,11 @@ defaults:
     -   scope:
             path: ""
             type: "inktober2023"
+        values:
+            layout: "art"
+    -   scope:
+            path: ""
+            type: "inktober2024"
         values:
             layout: "art"        
 
